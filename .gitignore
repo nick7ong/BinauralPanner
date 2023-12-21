@@ -1,0 +1,37 @@
+# JUCE-specific ignores
+Builds/
+JuceLibraryCode/
+
+# Ignore compiled object files
+*.o
+*.lo
+*.ko
+*.obj
+*.elf
+
+# Ignore compiled dynamic and static libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+
+# Ignore temporary files created by the IDE
+*.temp
+*.tmp
+*.bak
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Add any other file extensions or paths specific to your workflow
